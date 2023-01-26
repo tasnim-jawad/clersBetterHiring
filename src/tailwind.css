@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .bg_img_office{
+        background-image: url(../images/blu_banner_durc.jpg);
+        
+    }
+    .md_bg_img_office {
+        background-image: url(../images/banner_md2.png);
+
+    }
+    @font-face {
+        font-family: 'asap_extralight';
+        src: url('../fonts/Asap/static/Asap/Asap-ExtraLight.ttf');
+    }
+    .font_light{
+        font-family: 'asap_extralight';
+    }
+    .md_bg_img_living {
+        background-image: url(../images/bg_shade1.png);
+
+    }
+    
+
+    
+}
